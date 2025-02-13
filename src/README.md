@@ -1,19 +1,8 @@
-# craftinginterpreters_zh-TW
+# craftinginterpreters_zh
 
-### 前言
-這是一個基於[手撸解释器教程《Crafting Interpreters》中文翻译](https://github.com/GuoYaxiang/craftinginterpreters_zh)的項目，使用[vscode-zh-convertor](https://github.com/hongfanmeng/vscode-zh-convertor)將簡體中文轉成繁體中文後，透過[mdBook](https://github.com/rust-lang/mdBook)來建立線上閱讀文檔。
-
-### 使用方法
-```shell
-cargo install mdbook # 安裝mdbook
-mdbook build # 執行第一次組建
-mdbook serve # 啟動網頁伺服器
-```
-
-### 正文
 [ [在線閲讀](https://readonly.link/books/https://raw.githubusercontent.com/GuoYaxiang/craftinginterpreters_zh/main/book.json) ]
 
-手擼解釋器教程《Crafting Interpreters》中文繁體翻譯。
+手擼解釋器教程《Crafting Interpreters》中文翻譯。
 
 這是一個已基本完成的翻譯項目，原項目是[craftinginterpreters](https://github.com/munificent/craftinginterpreters)，同時還有配套的英文書，可免費[在線閲讀](http://www.craftinginterpreters.com/)。
 
@@ -75,3 +64,8 @@ mdbook serve # 啟動網頁伺服器
 PS：
 
 文本中使用了很多Typora功能語法，建議使用[Typora](https://typora.io/)閲讀，
+
+
+
+### 特別鳴謝
+感謝[xieyuheng](https://github.com/xieyuheng)提供的在線閲讀支持，為需要在線閲讀markdown文檔的同學推薦[read-only項目](https://github.com/readonlylink/readonlylink)，樣式簡約大方，值得一試。
